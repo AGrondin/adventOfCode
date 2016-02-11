@@ -1,0 +1,28 @@
+
+sum=0
+
+voyels=['a','e','i','o','u']
+
+illegals=['ab','cd','pq','xy']
+
+with open('C:\Users\Alexis\Documents\Advent of Code\Day 5\input') as input:
+	for line in input:
+		count=0
+		twice=False
+		illegal=False
+		buffer=''
+		for c in line:
+			print(buffer)
+			print(c)
+			if c in voyels:
+				count+=1
+			if ''.join([buffer, c]) in illegals:
+				illegal=True
+				break
+			if c==buffer:
+				twice=True
+			buffer=c
+		if (count>=3) and twice and not illegal:
+			sum+=1
+
+print(sum)			

@@ -1,0 +1,54 @@
+import traceback
+
+adjList=dict()
+
+def permutate(visited, distance):
+	max=0
+	minPath=[]
+	print(visited)
+	if len(visited)==len(adjList.keys())+1:
+		return((visited, distance))
+	#try:
+	for k in adjList[visited[-1]].keys():
+		if k in visited and k!=visited[0]:
+			continue
+		elif len(visited)!=len(adjList.keys()) and k==visited[0] :
+			continue
+		else:
+			path=permutate(list(visited)+[k], distance+adjList[visited[-1]][k])
+			if len(path[0])==len(adjList.keys())+1 and path[0][-1]==visited[0] and path[1]>max:
+				max=path[1]
+				minPath=path[0]
+	#except KeyError:
+		#print('ERROR')
+	return((minPath, max))
+
+with open('C:\\Users\\Alexis\\Documents\\Advent of Code\\Day 13\\input') as input:	
+	for line in input:
+		values=line.strip().strip('.').split(' ')
+		happiness=int(values[3])
+		if values[2]=='lose':
+			happiness=-happiness
+		if values[0] not in adjList:
+			adjList[values[0]]={}
+		if values[-1] not in adjList:
+			adjList[values[-1]]={}
+		try:
+			adjList[values[0]][values[-1]]+=happiness
+			adjList[values[-1]][values[0]]+=happiness
+		except KeyError:
+			adjList[values[0]][values[-1]]=happiness
+			adjList[values[-1]][values[0]]=happiness
+	adjList['Alexis']={}
+	for k in list(adjList.keys()):
+		adjList[k]['Alexis']=0
+		adjList['Alexis'][k]=0
+		
+	print(adjList)
+
+		
+perm=permutate([list(adjList.keys())[0]], 0)
+		
+print(perm)	
+
+

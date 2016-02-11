@@ -1,0 +1,44 @@
+from collections import defaultdict
+
+
+def symbolToMove(sym):
+	symbolMap = {
+		'>': (1,0),
+		'^': (0,1),
+		'<': (-1,0),
+		'v': (0,-1)
+		}
+	return symbolMap.get(sym)
+	
+posList=defaultdict(set)	
+
+position=[0,0]
+robopos=[0,0]
+
+posList[position[0]].add(position[1])
+
+print(len(set([0])))
+
+
+with open('C:\Users\Alexis\Documents\Advent of Code\Day 3\input') as input:
+	while True:
+		c=input.read(1)
+		print(c)
+		if not c:
+			break
+		move=symbolToMove(c)
+		position[0]+=move[0]
+		position[1]+=move[1]
+		posList[position[0]].add(position[1])
+		c=input.read(1)
+		if not c:
+			break
+		move=symbolToMove(c)
+		robopos[0]+=move[0]
+		robopos[1]+=move[1]
+		posList[robopos[0]].add(robopos[1])
+	sum=0
+	for s in posList.iteritems():
+		sum+=len(s[1])
+		print(s, len(s[1]))
+	print(sum)	

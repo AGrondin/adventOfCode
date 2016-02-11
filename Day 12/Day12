@@ -1,0 +1,15 @@
+import re
+
+numbers=re.compile(r'(-?[0-9]+)')
+
+allNumbers=[]
+
+with open('C:\\Users\\Alexis\\Documents\\Advent of Code\\Day 12\\input') as input:	
+
+	for line in input:
+		print(numbers.findall(line))
+		allNumbers+=(numbers.findall(line))
+		
+	intlist=map(int, allNumbers)
+	
+	print(sum(intlist))

@@ -1,0 +1,31 @@
+import operator
+
+
+with open('C:\\Users\\Alexis\\Documents\\Advent of Code\\Day 14\\input') as input:	
+
+	totalTime=2503
+	
+	reindeerList=dict()
+	for line in input:
+		words=line.split(' ')
+		reindeerList[words[0]]=list(map(int, [words[3], words[6], words[-2]]))
+		
+	
+	print(reindeerList)
+	scores=dict.fromkeys(list(reindeerList.keys()),0)
+	for i in range(1, totalTime+1):
+		maxReindeer=[]
+		maxDistance=0
+		for k,v in reindeerList.items():
+			distance=(i//(v[1]+v[2]))*v[1]*v[0]
+			distance+=min(i%(v[1]+v[2]), v[1])*v[0]
+			if distance==maxDistance:
+				maxReindeer.append(k)
+			if distance>maxDistance:
+				maxDistance=distance
+				maxReindeer=[k]
+		for k in maxReindeer:
+			scores[k]+=1
+	
+	print(max(list(scores.items()), key=operator.itemgetter(1)))
+	

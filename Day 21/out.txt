@@ -1,0 +1,1660 @@
+Weapons
+Armor
+Rings
+(17, 17, 'yes')
+True
+Greataxe Chainmail 105
+(17, 50, 'not')
+True
+Greataxe Chainmail ['Defense+1', 'Defense+3'] 205
+(15, 20, 'not')
+True
+Greataxe Chainmail ['Defense+1', 'Damage+1'] 150
+(13, 20, 'not')
+True
+Greataxe Chainmail ['Defense+1', 'Damage+2'] 175
+(12, 20, 'not')
+True
+Greataxe Chainmail ['Defense+1', 'Damage+3'] 225
+(17, 34, 'not')
+True
+Greataxe Chainmail ['Defense+1', 'Defense+2'] 165
+(15, 34, 'not')
+True
+Greataxe Chainmail ['Defense+3', 'Damage+1'] 210
+(13, 34, 'not')
+True
+Greataxe Chainmail ['Defense+3', 'Damage+2'] 235
+(12, 34, 'not')
+True
+Greataxe Chainmail ['Defense+3', 'Damage+3'] 285
+(17, 100, 'not')
+True
+Greataxe Chainmail ['Defense+3', 'Defense+2'] 225
+(12, 17, 'not')
+True
+Greataxe Chainmail ['Damage+1', 'Damage+2'] 180
+(10, 17, 'not')
+True
+Greataxe Chainmail ['Damage+1', 'Damage+3'] 230
+(15, 25, 'not')
+True
+Greataxe Chainmail ['Damage+1', 'Defense+2'] 170
+(10, 17, 'not')
+True
+Greataxe Chainmail ['Damage+2', 'Damage+3'] 255
+(13, 25, 'not')
+True
+Greataxe Chainmail ['Damage+2', 'Defense+2'] 195
+(12, 25, 'not')
+True
+Greataxe Chainmail ['Damage+3', 'Defense+2'] 245
+(17, 20, 'not')
+True
+Greataxe Chainmail Defense+1 125
+(17, 34, 'not')
+True
+Greataxe Chainmail Defense+3 185
+(15, 17, 'not')
+True
+Greataxe Chainmail Damage+1 130
+(13, 17, 'not')
+True
+Greataxe Chainmail Damage+2 155
+(12, 17, 'not')
+True
+Greataxe Chainmail Damage+3 205
+(17, 25, 'not')
+True
+Greataxe Chainmail Defense+2 145
+(17, 34, 'not')
+True
+Greataxe Platemail 176
+(17, 100, 'not')
+True
+Greataxe Platemail ['Defense+1', 'Defense+3'] 276
+(15, 50, 'not')
+True
+Greataxe Platemail ['Defense+1', 'Damage+1'] 221
+(13, 50, 'not')
+True
+Greataxe Platemail ['Defense+1', 'Damage+2'] 246
+(12, 50, 'not')
+True
+Greataxe Platemail ['Defense+1', 'Damage+3'] 296
+(17, 100, 'not')
+True
+Greataxe Platemail ['Defense+1', 'Defense+2'] 236
+(15, 100, 'not')
+True
+Greataxe Platemail ['Defense+3', 'Damage+1'] 281
+(13, 100, 'not')
+True
+Greataxe Platemail ['Defense+3', 'Damage+2'] 306
+(12, 100, 'not')
+True
+Greataxe Platemail ['Defense+3', 'Damage+3'] 356
+(17, 100, 'not')
+True
+Greataxe Platemail ['Defense+3', 'Defense+2'] 296
+(12, 34, 'not')
+True
+Greataxe Platemail ['Damage+1', 'Damage+2'] 251
+(10, 34, 'not')
+True
+Greataxe Platemail ['Damage+1', 'Damage+3'] 301
+(15, 100, 'not')
+True
+Greataxe Platemail ['Damage+1', 'Defense+2'] 241
+(10, 34, 'not')
+True
+Greataxe Platemail ['Damage+2', 'Damage+3'] 326
+(13, 100, 'not')
+True
+Greataxe Platemail ['Damage+2', 'Defense+2'] 266
+(12, 100, 'not')
+True
+Greataxe Platemail ['Damage+3', 'Defense+2'] 316
+(17, 50, 'not')
+True
+Greataxe Platemail Defense+1 196
+(17, 100, 'not')
+True
+Greataxe Platemail Defense+3 256
+(15, 34, 'not')
+True
+Greataxe Platemail Damage+1 201
+(13, 34, 'not')
+True
+Greataxe Platemail Damage+2 226
+(12, 34, 'not')
+True
+Greataxe Platemail Damage+3 276
+(17, 100, 'not')
+True
+Greataxe Platemail Defense+2 216
+(17, 15, 'not')
+False
+Greataxe Leather 87
+87
+(17, 34, 'not')
+True
+Greataxe Leather ['Defense+1', 'Defense+3'] 187
+(15, 17, 'not')
+True
+Greataxe Leather ['Defense+1', 'Damage+1'] 132
+(13, 17, 'not')
+True
+Greataxe Leather ['Defense+1', 'Damage+2'] 157
+(12, 17, 'not')
+True
+Greataxe Leather ['Defense+1', 'Damage+3'] 207
+(17, 25, 'not')
+True
+Greataxe Leather ['Defense+1', 'Defense+2'] 147
+(15, 25, 'not')
+True
+Greataxe Leather ['Defense+3', 'Damage+1'] 192
+(13, 25, 'not')
+True
+Greataxe Leather ['Defense+3', 'Damage+2'] 217
+(12, 25, 'not')
+True
+Greataxe Leather ['Defense+3', 'Damage+3'] 267
+(17, 50, 'not')
+True
+Greataxe Leather ['Defense+3', 'Defense+2'] 207
+(12, 15, 'not')
+True
+Greataxe Leather ['Damage+1', 'Damage+2'] 162
+(10, 15, 'not')
+True
+Greataxe Leather ['Damage+1', 'Damage+3'] 212
+(15, 20, 'not')
+True
+Greataxe Leather ['Damage+1', 'Defense+2'] 152
+(10, 15, 'not')
+True
+Greataxe Leather ['Damage+2', 'Damage+3'] 237
+(13, 20, 'not')
+True
+Greataxe Leather ['Damage+2', 'Defense+2'] 177
+(12, 20, 'not')
+True
+Greataxe Leather ['Damage+3', 'Defense+2'] 227
+(17, 17, 'yes')
+True
+Greataxe Leather Defense+1 107
+(17, 25, 'not')
+True
+Greataxe Leather Defense+3 167
+(15, 15, 'yes')
+True
+Greataxe Leather Damage+1 112
+(13, 15, 'not')
+True
+Greataxe Leather Damage+2 137
+(12, 15, 'not')
+True
+Greataxe Leather Damage+3 187
+(17, 20, 'not')
+True
+Greataxe Leather Defense+2 127
+(17, 25, 'not')
+True
+Greataxe Bandedmail 149
+(17, 100, 'not')
+True
+Greataxe Bandedmail ['Defense+1', 'Defense+3'] 249
+(15, 34, 'not')
+True
+Greataxe Bandedmail ['Defense+1', 'Damage+1'] 194
+(13, 34, 'not')
+True
+Greataxe Bandedmail ['Defense+1', 'Damage+2'] 219
+(12, 34, 'not')
+True
+Greataxe Bandedmail ['Defense+1', 'Damage+3'] 269
+(17, 100, 'not')
+True
+Greataxe Bandedmail ['Defense+1', 'Defense+2'] 209
+(15, 100, 'not')
+True
+Greataxe Bandedmail ['Defense+3', 'Damage+1'] 254
+(13, 100, 'not')
+True
+Greataxe Bandedmail ['Defense+3', 'Damage+2'] 279
+(12, 100, 'not')
+True
+Greataxe Bandedmail ['Defense+3', 'Damage+3'] 329
+(17, 100, 'not')
+True
+Greataxe Bandedmail ['Defense+3', 'Defense+2'] 269
+(12, 25, 'not')
+True
+Greataxe Bandedmail ['Damage+1', 'Damage+2'] 224
+(10, 25, 'not')
+True
+Greataxe Bandedmail ['Damage+1', 'Damage+3'] 274
+(15, 50, 'not')
+True
+Greataxe Bandedmail ['Damage+1', 'Defense+2'] 214
+(10, 25, 'not')
+True
+Greataxe Bandedmail ['Damage+2', 'Damage+3'] 299
+(13, 50, 'not')
+True
+Greataxe Bandedmail ['Damage+2', 'Defense+2'] 239
+(12, 50, 'not')
+True
+Greataxe Bandedmail ['Damage+3', 'Defense+2'] 289
+(17, 34, 'not')
+True
+Greataxe Bandedmail Defense+1 169
+(17, 100, 'not')
+True
+Greataxe Bandedmail Defense+3 229
+(15, 25, 'not')
+True
+Greataxe Bandedmail Damage+1 174
+(13, 25, 'not')
+True
+Greataxe Bandedmail Damage+2 199
+(12, 25, 'not')
+True
+Greataxe Bandedmail Damage+3 249
+(17, 50, 'not')
+True
+Greataxe Bandedmail Defense+2 189
+(17, 20, 'not')
+True
+Greataxe Splintmail 127
+(17, 100, 'not')
+True
+Greataxe Splintmail ['Defense+1', 'Defense+3'] 227
+(15, 25, 'not')
+True
+Greataxe Splintmail ['Defense+1', 'Damage+1'] 172
+(13, 25, 'not')
+True
+Greataxe Splintmail ['Defense+1', 'Damage+2'] 197
+(12, 25, 'not')
+True
+Greataxe Splintmail ['Defense+1', 'Damage+3'] 247
+(17, 50, 'not')
+True
+Greataxe Splintmail ['Defense+1', 'Defense+2'] 187
+(15, 50, 'not')
+True
+Greataxe Splintmail ['Defense+3', 'Damage+1'] 232
+(13, 50, 'not')
+True
+Greataxe Splintmail ['Defense+3', 'Damage+2'] 257
+(12, 50, 'not')
+True
+Greataxe Splintmail ['Defense+3', 'Damage+3'] 307
+(17, 100, 'not')
+True
+Greataxe Splintmail ['Defense+3', 'Defense+2'] 247
+(12, 20, 'not')
+True
+Greataxe Splintmail ['Damage+1', 'Damage+2'] 202
+(10, 20, 'not')
+True
+Greataxe Splintmail ['Damage+1', 'Damage+3'] 252
+(15, 34, 'not')
+True
+Greataxe Splintmail ['Damage+1', 'Defense+2'] 192
+(10, 20, 'not')
+True
+Greataxe Splintmail ['Damage+2', 'Damage+3'] 277
+(13, 34, 'not')
+True
+Greataxe Splintmail ['Damage+2', 'Defense+2'] 217
+(12, 34, 'not')
+True
+Greataxe Splintmail ['Damage+3', 'Defense+2'] 267
+(17, 25, 'not')
+True
+Greataxe Splintmail Defense+1 147
+(17, 50, 'not')
+True
+Greataxe Splintmail Defense+3 207
+(15, 20, 'not')
+True
+Greataxe Splintmail Damage+1 152
+(13, 20, 'not')
+True
+Greataxe Splintmail Damage+2 177
+(12, 20, 'not')
+True
+Greataxe Splintmail Damage+3 227
+(17, 34, 'not')
+True
+Greataxe Splintmail Defense+2 167
+(34, 17, 'not')
+False
+Shortsword Chainmail 41
+(34, 50, 'not')
+True
+Shortsword Chainmail ['Defense+1', 'Defense+3'] 141
+(25, 20, 'not')
+False
+Shortsword Chainmail ['Defense+1', 'Damage+1'] 86
+(20, 20, 'yes')
+True
+Shortsword Chainmail ['Defense+1', 'Damage+2'] 111
+(17, 20, 'not')
+True
+Shortsword Chainmail ['Defense+1', 'Damage+3'] 161
+(34, 34, 'yes')
+True
+Shortsword Chainmail ['Defense+1', 'Defense+2'] 101
+(25, 34, 'not')
+True
+Shortsword Chainmail ['Defense+3', 'Damage+1'] 146
+(20, 34, 'not')
+True
+Shortsword Chainmail ['Defense+3', 'Damage+2'] 171
+(17, 34, 'not')
+True
+Shortsword Chainmail ['Defense+3', 'Damage+3'] 221
+(34, 100, 'not')
+True
+Shortsword Chainmail ['Defense+3', 'Defense+2'] 161
+(17, 17, 'yes')
+True
+Shortsword Chainmail ['Damage+1', 'Damage+2'] 116
+(15, 17, 'not')
+True
+Shortsword Chainmail ['Damage+1', 'Damage+3'] 166
+(25, 25, 'yes')
+True
+Shortsword Chainmail ['Damage+1', 'Defense+2'] 106
+(13, 17, 'not')
+True
+Shortsword Chainmail ['Damage+2', 'Damage+3'] 191
+(20, 25, 'not')
+True
+Shortsword Chainmail ['Damage+2', 'Defense+2'] 131
+(17, 25, 'not')
+True
+Shortsword Chainmail ['Damage+3', 'Defense+2'] 181
+(34, 20, 'not')
+False
+Shortsword Chainmail Defense+1 61
+(34, 34, 'yes')
+True
+Shortsword Chainmail Defense+3 121
+(25, 17, 'not')
+False
+Shortsword Chainmail Damage+1 66
+(20, 17, 'not')
+False
+Shortsword Chainmail Damage+2 91
+(17, 17, 'yes')
+True
+Shortsword Chainmail Damage+3 141
+(34, 25, 'not')
+False
+Shortsword Chainmail Defense+2 81
+(34, 34, 'yes')
+True
+Shortsword Platemail 112
+(34, 100, 'not')
+True
+Shortsword Platemail ['Defense+1', 'Defense+3'] 212
+(25, 50, 'not')
+True
+Shortsword Platemail ['Defense+1', 'Damage+1'] 157
+(20, 50, 'not')
+True
+Shortsword Platemail ['Defense+1', 'Damage+2'] 182
+(17, 50, 'not')
+True
+Shortsword Platemail ['Defense+1', 'Damage+3'] 232
+(34, 100, 'not')
+True
+Shortsword Platemail ['Defense+1', 'Defense+2'] 172
+(25, 100, 'not')
+True
+Shortsword Platemail ['Defense+3', 'Damage+1'] 217
+(20, 100, 'not')
+True
+Shortsword Platemail ['Defense+3', 'Damage+2'] 242
+(17, 100, 'not')
+True
+Shortsword Platemail ['Defense+3', 'Damage+3'] 292
+(34, 100, 'not')
+True
+Shortsword Platemail ['Defense+3', 'Defense+2'] 232
+(17, 34, 'not')
+True
+Shortsword Platemail ['Damage+1', 'Damage+2'] 187
+(15, 34, 'not')
+True
+Shortsword Platemail ['Damage+1', 'Damage+3'] 237
+(25, 100, 'not')
+True
+Shortsword Platemail ['Damage+1', 'Defense+2'] 177
+(13, 34, 'not')
+True
+Shortsword Platemail ['Damage+2', 'Damage+3'] 262
+(20, 100, 'not')
+True
+Shortsword Platemail ['Damage+2', 'Defense+2'] 202
+(17, 100, 'not')
+True
+Shortsword Platemail ['Damage+3', 'Defense+2'] 252
+(34, 50, 'not')
+True
+Shortsword Platemail Defense+1 132
+(34, 100, 'not')
+True
+Shortsword Platemail Defense+3 192
+(25, 34, 'not')
+True
+Shortsword Platemail Damage+1 137
+(20, 34, 'not')
+True
+Shortsword Platemail Damage+2 162
+(17, 34, 'not')
+True
+Shortsword Platemail Damage+3 212
+(34, 100, 'not')
+True
+Shortsword Platemail Defense+2 152
+(34, 15, 'not')
+False
+Shortsword Leather 23
+(34, 34, 'yes')
+True
+Shortsword Leather ['Defense+1', 'Defense+3'] 123
+(25, 17, 'not')
+False
+Shortsword Leather ['Defense+1', 'Damage+1'] 68
+(20, 17, 'not')
+False
+Shortsword Leather ['Defense+1', 'Damage+2'] 93
+93
+(17, 17, 'yes')
+True
+Shortsword Leather ['Defense+1', 'Damage+3'] 143
+(34, 25, 'not')
+False
+Shortsword Leather ['Defense+1', 'Defense+2'] 83
+(25, 25, 'yes')
+True
+Shortsword Leather ['Defense+3', 'Damage+1'] 128
+(20, 25, 'not')
+True
+Shortsword Leather ['Defense+3', 'Damage+2'] 153
+(17, 25, 'not')
+True
+Shortsword Leather ['Defense+3', 'Damage+3'] 203
+(34, 50, 'not')
+True
+Shortsword Leather ['Defense+3', 'Defense+2'] 143
+(17, 15, 'not')
+False
+Shortsword Leather ['Damage+1', 'Damage+2'] 98
+98
+(15, 15, 'yes')
+True
+Shortsword Leather ['Damage+1', 'Damage+3'] 148
+(25, 20, 'not')
+False
+Shortsword Leather ['Damage+1', 'Defense+2'] 88
+(13, 15, 'not')
+True
+Shortsword Leather ['Damage+2', 'Damage+3'] 173
+(20, 20, 'yes')
+True
+Shortsword Leather ['Damage+2', 'Defense+2'] 113
+(17, 20, 'not')
+True
+Shortsword Leather ['Damage+3', 'Defense+2'] 163
+(34, 17, 'not')
+False
+Shortsword Leather Defense+1 43
+(34, 25, 'not')
+False
+Shortsword Leather Defense+3 103
+(25, 15, 'not')
+False
+Shortsword Leather Damage+1 48
+(20, 15, 'not')
+False
+Shortsword Leather Damage+2 73
+(17, 15, 'not')
+False
+Shortsword Leather Damage+3 123
+(34, 20, 'not')
+False
+Shortsword Leather Defense+2 63
+(34, 25, 'not')
+False
+Shortsword Bandedmail 85
+(34, 100, 'not')
+True
+Shortsword Bandedmail ['Defense+1', 'Defense+3'] 185
+(25, 34, 'not')
+True
+Shortsword Bandedmail ['Defense+1', 'Damage+1'] 130
+(20, 34, 'not')
+True
+Shortsword Bandedmail ['Defense+1', 'Damage+2'] 155
+(17, 34, 'not')
+True
+Shortsword Bandedmail ['Defense+1', 'Damage+3'] 205
+(34, 100, 'not')
+True
+Shortsword Bandedmail ['Defense+1', 'Defense+2'] 145
+(25, 100, 'not')
+True
+Shortsword Bandedmail ['Defense+3', 'Damage+1'] 190
+(20, 100, 'not')
+True
+Shortsword Bandedmail ['Defense+3', 'Damage+2'] 215
+(17, 100, 'not')
+True
+Shortsword Bandedmail ['Defense+3', 'Damage+3'] 265
+(34, 100, 'not')
+True
+Shortsword Bandedmail ['Defense+3', 'Defense+2'] 205
+(17, 25, 'not')
+True
+Shortsword Bandedmail ['Damage+1', 'Damage+2'] 160
+(15, 25, 'not')
+True
+Shortsword Bandedmail ['Damage+1', 'Damage+3'] 210
+(25, 50, 'not')
+True
+Shortsword Bandedmail ['Damage+1', 'Defense+2'] 150
+(13, 25, 'not')
+True
+Shortsword Bandedmail ['Damage+2', 'Damage+3'] 235
+(20, 50, 'not')
+True
+Shortsword Bandedmail ['Damage+2', 'Defense+2'] 175
+(17, 50, 'not')
+True
+Shortsword Bandedmail ['Damage+3', 'Defense+2'] 225
+(34, 34, 'yes')
+True
+Shortsword Bandedmail Defense+1 105
+(34, 100, 'not')
+True
+Shortsword Bandedmail Defense+3 165
+(25, 25, 'yes')
+True
+Shortsword Bandedmail Damage+1 110
+(20, 25, 'not')
+True
+Shortsword Bandedmail Damage+2 135
+(17, 25, 'not')
+True
+Shortsword Bandedmail Damage+3 185
+(34, 50, 'not')
+True
+Shortsword Bandedmail Defense+2 125
+(34, 20, 'not')
+False
+Shortsword Splintmail 63
+(34, 100, 'not')
+True
+Shortsword Splintmail ['Defense+1', 'Defense+3'] 163
+(25, 25, 'yes')
+True
+Shortsword Splintmail ['Defense+1', 'Damage+1'] 108
+(20, 25, 'not')
+True
+Shortsword Splintmail ['Defense+1', 'Damage+2'] 133
+(17, 25, 'not')
+True
+Shortsword Splintmail ['Defense+1', 'Damage+3'] 183
+(34, 50, 'not')
+True
+Shortsword Splintmail ['Defense+1', 'Defense+2'] 123
+(25, 50, 'not')
+True
+Shortsword Splintmail ['Defense+3', 'Damage+1'] 168
+(20, 50, 'not')
+True
+Shortsword Splintmail ['Defense+3', 'Damage+2'] 193
+(17, 50, 'not')
+True
+Shortsword Splintmail ['Defense+3', 'Damage+3'] 243
+(34, 100, 'not')
+True
+Shortsword Splintmail ['Defense+3', 'Defense+2'] 183
+(17, 20, 'not')
+True
+Shortsword Splintmail ['Damage+1', 'Damage+2'] 138
+(15, 20, 'not')
+True
+Shortsword Splintmail ['Damage+1', 'Damage+3'] 188
+(25, 34, 'not')
+True
+Shortsword Splintmail ['Damage+1', 'Defense+2'] 128
+(13, 20, 'not')
+True
+Shortsword Splintmail ['Damage+2', 'Damage+3'] 213
+(20, 34, 'not')
+True
+Shortsword Splintmail ['Damage+2', 'Defense+2'] 153
+(17, 34, 'not')
+True
+Shortsword Splintmail ['Damage+3', 'Defense+2'] 203
+(34, 25, 'not')
+False
+Shortsword Splintmail Defense+1 83
+(34, 50, 'not')
+True
+Shortsword Splintmail Defense+3 143
+(25, 20, 'not')
+False
+Shortsword Splintmail Damage+1 88
+(20, 20, 'yes')
+True
+Shortsword Splintmail Damage+2 113
+(17, 20, 'not')
+True
+Shortsword Splintmail Damage+3 163
+(34, 34, 'yes')
+True
+Shortsword Splintmail Defense+2 103
+(20, 17, 'not')
+False
+Longsword Chainmail 71
+(20, 50, 'not')
+True
+Longsword Chainmail ['Defense+1', 'Defense+3'] 171
+(17, 20, 'not')
+True
+Longsword Chainmail ['Defense+1', 'Damage+1'] 116
+(15, 20, 'not')
+True
+Longsword Chainmail ['Defense+1', 'Damage+2'] 141
+(13, 20, 'not')
+True
+Longsword Chainmail ['Defense+1', 'Damage+3'] 191
+(20, 34, 'not')
+True
+Longsword Chainmail ['Defense+1', 'Defense+2'] 131
+(17, 34, 'not')
+True
+Longsword Chainmail ['Defense+3', 'Damage+1'] 176
+(15, 34, 'not')
+True
+Longsword Chainmail ['Defense+3', 'Damage+2'] 201
+(13, 34, 'not')
+True
+Longsword Chainmail ['Defense+3', 'Damage+3'] 251
+(20, 100, 'not')
+True
+Longsword Chainmail ['Defense+3', 'Defense+2'] 191
+(13, 17, 'not')
+True
+Longsword Chainmail ['Damage+1', 'Damage+2'] 146
+(12, 17, 'not')
+True
+Longsword Chainmail ['Damage+1', 'Damage+3'] 196
+(17, 25, 'not')
+True
+Longsword Chainmail ['Damage+1', 'Defense+2'] 136
+(10, 17, 'not')
+True
+Longsword Chainmail ['Damage+2', 'Damage+3'] 221
+(15, 25, 'not')
+True
+Longsword Chainmail ['Damage+2', 'Defense+2'] 161
+(13, 25, 'not')
+True
+Longsword Chainmail ['Damage+3', 'Defense+2'] 211
+(20, 20, 'yes')
+True
+Longsword Chainmail Defense+1 91
+(20, 34, 'not')
+True
+Longsword Chainmail Defense+3 151
+(17, 17, 'yes')
+True
+Longsword Chainmail Damage+1 96
+(15, 17, 'not')
+True
+Longsword Chainmail Damage+2 121
+(13, 17, 'not')
+True
+Longsword Chainmail Damage+3 171
+(20, 25, 'not')
+True
+Longsword Chainmail Defense+2 111
+(20, 34, 'not')
+True
+Longsword Platemail 142
+(20, 100, 'not')
+True
+Longsword Platemail ['Defense+1', 'Defense+3'] 242
+(17, 50, 'not')
+True
+Longsword Platemail ['Defense+1', 'Damage+1'] 187
+(15, 50, 'not')
+True
+Longsword Platemail ['Defense+1', 'Damage+2'] 212
+(13, 50, 'not')
+True
+Longsword Platemail ['Defense+1', 'Damage+3'] 262
+(20, 100, 'not')
+True
+Longsword Platemail ['Defense+1', 'Defense+2'] 202
+(17, 100, 'not')
+True
+Longsword Platemail ['Defense+3', 'Damage+1'] 247
+(15, 100, 'not')
+True
+Longsword Platemail ['Defense+3', 'Damage+2'] 272
+(13, 100, 'not')
+True
+Longsword Platemail ['Defense+3', 'Damage+3'] 322
+(20, 100, 'not')
+True
+Longsword Platemail ['Defense+3', 'Defense+2'] 262
+(13, 34, 'not')
+True
+Longsword Platemail ['Damage+1', 'Damage+2'] 217
+(12, 34, 'not')
+True
+Longsword Platemail ['Damage+1', 'Damage+3'] 267
+(17, 100, 'not')
+True
+Longsword Platemail ['Damage+1', 'Defense+2'] 207
+(10, 34, 'not')
+True
+Longsword Platemail ['Damage+2', 'Damage+3'] 292
+(15, 100, 'not')
+True
+Longsword Platemail ['Damage+2', 'Defense+2'] 232
+(13, 100, 'not')
+True
+Longsword Platemail ['Damage+3', 'Defense+2'] 282
+(20, 50, 'not')
+True
+Longsword Platemail Defense+1 162
+(20, 100, 'not')
+True
+Longsword Platemail Defense+3 222
+(17, 34, 'not')
+True
+Longsword Platemail Damage+1 167
+(15, 34, 'not')
+True
+Longsword Platemail Damage+2 192
+(13, 34, 'not')
+True
+Longsword Platemail Damage+3 242
+(20, 100, 'not')
+True
+Longsword Platemail Defense+2 182
+(20, 15, 'not')
+False
+Longsword Leather 53
+(20, 34, 'not')
+True
+Longsword Leather ['Defense+1', 'Defense+3'] 153
+(17, 17, 'yes')
+True
+Longsword Leather ['Defense+1', 'Damage+1'] 98
+(15, 17, 'not')
+True
+Longsword Leather ['Defense+1', 'Damage+2'] 123
+(13, 17, 'not')
+True
+Longsword Leather ['Defense+1', 'Damage+3'] 173
+(20, 25, 'not')
+True
+Longsword Leather ['Defense+1', 'Defense+2'] 113
+(17, 25, 'not')
+True
+Longsword Leather ['Defense+3', 'Damage+1'] 158
+(15, 25, 'not')
+True
+Longsword Leather ['Defense+3', 'Damage+2'] 183
+(13, 25, 'not')
+True
+Longsword Leather ['Defense+3', 'Damage+3'] 233
+(20, 50, 'not')
+True
+Longsword Leather ['Defense+3', 'Defense+2'] 173
+(13, 15, 'not')
+True
+Longsword Leather ['Damage+1', 'Damage+2'] 128
+(12, 15, 'not')
+True
+Longsword Leather ['Damage+1', 'Damage+3'] 178
+(17, 20, 'not')
+True
+Longsword Leather ['Damage+1', 'Defense+2'] 118
+(10, 15, 'not')
+True
+Longsword Leather ['Damage+2', 'Damage+3'] 203
+(15, 20, 'not')
+True
+Longsword Leather ['Damage+2', 'Defense+2'] 143
+(13, 20, 'not')
+True
+Longsword Leather ['Damage+3', 'Defense+2'] 193
+(20, 17, 'not')
+False
+Longsword Leather Defense+1 73
+(20, 25, 'not')
+True
+Longsword Leather Defense+3 133
+(17, 15, 'not')
+False
+Longsword Leather Damage+1 78
+(15, 15, 'yes')
+True
+Longsword Leather Damage+2 103
+(13, 15, 'not')
+True
+Longsword Leather Damage+3 153
+(20, 20, 'yes')
+True
+Longsword Leather Defense+2 93
+(20, 25, 'not')
+True
+Longsword Bandedmail 115
+(20, 100, 'not')
+True
+Longsword Bandedmail ['Defense+1', 'Defense+3'] 215
+(17, 34, 'not')
+True
+Longsword Bandedmail ['Defense+1', 'Damage+1'] 160
+(15, 34, 'not')
+True
+Longsword Bandedmail ['Defense+1', 'Damage+2'] 185
+(13, 34, 'not')
+True
+Longsword Bandedmail ['Defense+1', 'Damage+3'] 235
+(20, 100, 'not')
+True
+Longsword Bandedmail ['Defense+1', 'Defense+2'] 175
+(17, 100, 'not')
+True
+Longsword Bandedmail ['Defense+3', 'Damage+1'] 220
+(15, 100, 'not')
+True
+Longsword Bandedmail ['Defense+3', 'Damage+2'] 245
+(13, 100, 'not')
+True
+Longsword Bandedmail ['Defense+3', 'Damage+3'] 295
+(20, 100, 'not')
+True
+Longsword Bandedmail ['Defense+3', 'Defense+2'] 235
+(13, 25, 'not')
+True
+Longsword Bandedmail ['Damage+1', 'Damage+2'] 190
+(12, 25, 'not')
+True
+Longsword Bandedmail ['Damage+1', 'Damage+3'] 240
+(17, 50, 'not')
+True
+Longsword Bandedmail ['Damage+1', 'Defense+2'] 180
+(10, 25, 'not')
+True
+Longsword Bandedmail ['Damage+2', 'Damage+3'] 265
+(15, 50, 'not')
+True
+Longsword Bandedmail ['Damage+2', 'Defense+2'] 205
+(13, 50, 'not')
+True
+Longsword Bandedmail ['Damage+3', 'Defense+2'] 255
+(20, 34, 'not')
+True
+Longsword Bandedmail Defense+1 135
+(20, 100, 'not')
+True
+Longsword Bandedmail Defense+3 195
+(17, 25, 'not')
+True
+Longsword Bandedmail Damage+1 140
+(15, 25, 'not')
+True
+Longsword Bandedmail Damage+2 165
+(13, 25, 'not')
+True
+Longsword Bandedmail Damage+3 215
+(20, 50, 'not')
+True
+Longsword Bandedmail Defense+2 155
+(20, 20, 'yes')
+True
+Longsword Splintmail 93
+(20, 100, 'not')
+True
+Longsword Splintmail ['Defense+1', 'Defense+3'] 193
+(17, 25, 'not')
+True
+Longsword Splintmail ['Defense+1', 'Damage+1'] 138
+(15, 25, 'not')
+True
+Longsword Splintmail ['Defense+1', 'Damage+2'] 163
+(13, 25, 'not')
+True
+Longsword Splintmail ['Defense+1', 'Damage+3'] 213
+(20, 50, 'not')
+True
+Longsword Splintmail ['Defense+1', 'Defense+2'] 153
+(17, 50, 'not')
+True
+Longsword Splintmail ['Defense+3', 'Damage+1'] 198
+(15, 50, 'not')
+True
+Longsword Splintmail ['Defense+3', 'Damage+2'] 223
+(13, 50, 'not')
+True
+Longsword Splintmail ['Defense+3', 'Damage+3'] 273
+(20, 100, 'not')
+True
+Longsword Splintmail ['Defense+3', 'Defense+2'] 213
+(13, 20, 'not')
+True
+Longsword Splintmail ['Damage+1', 'Damage+2'] 168
+(12, 20, 'not')
+True
+Longsword Splintmail ['Damage+1', 'Damage+3'] 218
+(17, 34, 'not')
+True
+Longsword Splintmail ['Damage+1', 'Defense+2'] 158
+(10, 20, 'not')
+True
+Longsword Splintmail ['Damage+2', 'Damage+3'] 243
+(15, 34, 'not')
+True
+Longsword Splintmail ['Damage+2', 'Defense+2'] 183
+(13, 34, 'not')
+True
+Longsword Splintmail ['Damage+3', 'Defense+2'] 233
+(20, 25, 'not')
+True
+Longsword Splintmail Defense+1 113
+(20, 50, 'not')
+True
+Longsword Splintmail Defense+3 173
+(17, 20, 'not')
+True
+Longsword Splintmail Damage+1 118
+(15, 20, 'not')
+True
+Longsword Splintmail Damage+2 143
+(13, 20, 'not')
+True
+Longsword Splintmail Damage+3 193
+(20, 34, 'not')
+True
+Longsword Splintmail Defense+2 133
+(50, 17, 'not')
+False
+Dagger Chainmail 39
+(50, 50, 'yes')
+True
+Dagger Chainmail ['Defense+1', 'Defense+3'] 139
+(34, 20, 'not')
+False
+Dagger Chainmail ['Defense+1', 'Damage+1'] 84
+(25, 20, 'not')
+False
+Dagger Chainmail ['Defense+1', 'Damage+2'] 109
+(20, 20, 'yes')
+True
+Dagger Chainmail ['Defense+1', 'Damage+3'] 159
+(50, 34, 'not')
+False
+Dagger Chainmail ['Defense+1', 'Defense+2'] 99
+(34, 34, 'yes')
+True
+Dagger Chainmail ['Defense+3', 'Damage+1'] 144
+(25, 34, 'not')
+True
+Dagger Chainmail ['Defense+3', 'Damage+2'] 169
+(20, 34, 'not')
+True
+Dagger Chainmail ['Defense+3', 'Damage+3'] 219
+(50, 100, 'not')
+True
+Dagger Chainmail ['Defense+3', 'Defense+2'] 159
+(20, 17, 'not')
+False
+Dagger Chainmail ['Damage+1', 'Damage+2'] 114
+(17, 17, 'yes')
+True
+Dagger Chainmail ['Damage+1', 'Damage+3'] 164
+(34, 25, 'not')
+False
+Dagger Chainmail ['Damage+1', 'Defense+2'] 104
+(15, 17, 'not')
+True
+Dagger Chainmail ['Damage+2', 'Damage+3'] 189
+(25, 25, 'yes')
+True
+Dagger Chainmail ['Damage+2', 'Defense+2'] 129
+(20, 25, 'not')
+True
+Dagger Chainmail ['Damage+3', 'Defense+2'] 179
+(50, 20, 'not')
+False
+Dagger Chainmail Defense+1 59
+(50, 34, 'not')
+False
+Dagger Chainmail Defense+3 119
+(34, 17, 'not')
+False
+Dagger Chainmail Damage+1 64
+(25, 17, 'not')
+False
+Dagger Chainmail Damage+2 89
+(20, 17, 'not')
+False
+Dagger Chainmail Damage+3 139
+(50, 25, 'not')
+False
+Dagger Chainmail Defense+2 79
+(50, 34, 'not')
+False
+Dagger Platemail 110
+(50, 100, 'not')
+True
+Dagger Platemail ['Defense+1', 'Defense+3'] 210
+(34, 50, 'not')
+True
+Dagger Platemail ['Defense+1', 'Damage+1'] 155
+(25, 50, 'not')
+True
+Dagger Platemail ['Defense+1', 'Damage+2'] 180
+(20, 50, 'not')
+True
+Dagger Platemail ['Defense+1', 'Damage+3'] 230
+(50, 100, 'not')
+True
+Dagger Platemail ['Defense+1', 'Defense+2'] 170
+(34, 100, 'not')
+True
+Dagger Platemail ['Defense+3', 'Damage+1'] 215
+(25, 100, 'not')
+True
+Dagger Platemail ['Defense+3', 'Damage+2'] 240
+(20, 100, 'not')
+True
+Dagger Platemail ['Defense+3', 'Damage+3'] 290
+(50, 100, 'not')
+True
+Dagger Platemail ['Defense+3', 'Defense+2'] 230
+(20, 34, 'not')
+True
+Dagger Platemail ['Damage+1', 'Damage+2'] 185
+(17, 34, 'not')
+True
+Dagger Platemail ['Damage+1', 'Damage+3'] 235
+(34, 100, 'not')
+True
+Dagger Platemail ['Damage+1', 'Defense+2'] 175
+(15, 34, 'not')
+True
+Dagger Platemail ['Damage+2', 'Damage+3'] 260
+(25, 100, 'not')
+True
+Dagger Platemail ['Damage+2', 'Defense+2'] 200
+(20, 100, 'not')
+True
+Dagger Platemail ['Damage+3', 'Defense+2'] 250
+(50, 50, 'yes')
+True
+Dagger Platemail Defense+1 130
+(50, 100, 'not')
+True
+Dagger Platemail Defense+3 190
+(34, 34, 'yes')
+True
+Dagger Platemail Damage+1 135
+(25, 34, 'not')
+True
+Dagger Platemail Damage+2 160
+(20, 34, 'not')
+True
+Dagger Platemail Damage+3 210
+(50, 100, 'not')
+True
+Dagger Platemail Defense+2 150
+(50, 15, 'not')
+False
+Dagger Leather 21
+(50, 34, 'not')
+False
+Dagger Leather ['Defense+1', 'Defense+3'] 121
+(34, 17, 'not')
+False
+Dagger Leather ['Defense+1', 'Damage+1'] 66
+(25, 17, 'not')
+False
+Dagger Leather ['Defense+1', 'Damage+2'] 91
+(20, 17, 'not')
+False
+Dagger Leather ['Defense+1', 'Damage+3'] 141
+141
+(50, 25, 'not')
+False
+Dagger Leather ['Defense+1', 'Defense+2'] 81
+(34, 25, 'not')
+False
+Dagger Leather ['Defense+3', 'Damage+1'] 126
+(25, 25, 'yes')
+True
+Dagger Leather ['Defense+3', 'Damage+2'] 151
+(20, 25, 'not')
+True
+Dagger Leather ['Defense+3', 'Damage+3'] 201
+(50, 50, 'yes')
+True
+Dagger Leather ['Defense+3', 'Defense+2'] 141
+(20, 15, 'not')
+False
+Dagger Leather ['Damage+1', 'Damage+2'] 96
+(17, 15, 'not')
+False
+Dagger Leather ['Damage+1', 'Damage+3'] 146
+146
+(34, 20, 'not')
+False
+Dagger Leather ['Damage+1', 'Defense+2'] 86
+(15, 15, 'yes')
+True
+Dagger Leather ['Damage+2', 'Damage+3'] 171
+(25, 20, 'not')
+False
+Dagger Leather ['Damage+2', 'Defense+2'] 111
+(20, 20, 'yes')
+True
+Dagger Leather ['Damage+3', 'Defense+2'] 161
+(50, 17, 'not')
+False
+Dagger Leather Defense+1 41
+(50, 25, 'not')
+False
+Dagger Leather Defense+3 101
+(34, 15, 'not')
+False
+Dagger Leather Damage+1 46
+(25, 15, 'not')
+False
+Dagger Leather Damage+2 71
+(20, 15, 'not')
+False
+Dagger Leather Damage+3 121
+(50, 20, 'not')
+False
+Dagger Leather Defense+2 61
+(50, 25, 'not')
+False
+Dagger Bandedmail 83
+(50, 100, 'not')
+True
+Dagger Bandedmail ['Defense+1', 'Defense+3'] 183
+(34, 34, 'yes')
+True
+Dagger Bandedmail ['Defense+1', 'Damage+1'] 128
+(25, 34, 'not')
+True
+Dagger Bandedmail ['Defense+1', 'Damage+2'] 153
+(20, 34, 'not')
+True
+Dagger Bandedmail ['Defense+1', 'Damage+3'] 203
+(50, 100, 'not')
+True
+Dagger Bandedmail ['Defense+1', 'Defense+2'] 143
+(34, 100, 'not')
+True
+Dagger Bandedmail ['Defense+3', 'Damage+1'] 188
+(25, 100, 'not')
+True
+Dagger Bandedmail ['Defense+3', 'Damage+2'] 213
+(20, 100, 'not')
+True
+Dagger Bandedmail ['Defense+3', 'Damage+3'] 263
+(50, 100, 'not')
+True
+Dagger Bandedmail ['Defense+3', 'Defense+2'] 203
+(20, 25, 'not')
+True
+Dagger Bandedmail ['Damage+1', 'Damage+2'] 158
+(17, 25, 'not')
+True
+Dagger Bandedmail ['Damage+1', 'Damage+3'] 208
+(34, 50, 'not')
+True
+Dagger Bandedmail ['Damage+1', 'Defense+2'] 148
+(15, 25, 'not')
+True
+Dagger Bandedmail ['Damage+2', 'Damage+3'] 233
+(25, 50, 'not')
+True
+Dagger Bandedmail ['Damage+2', 'Defense+2'] 173
+(20, 50, 'not')
+True
+Dagger Bandedmail ['Damage+3', 'Defense+2'] 223
+(50, 34, 'not')
+False
+Dagger Bandedmail Defense+1 103
+(50, 100, 'not')
+True
+Dagger Bandedmail Defense+3 163
+(34, 25, 'not')
+False
+Dagger Bandedmail Damage+1 108
+(25, 25, 'yes')
+True
+Dagger Bandedmail Damage+2 133
+(20, 25, 'not')
+True
+Dagger Bandedmail Damage+3 183
+(50, 50, 'yes')
+True
+Dagger Bandedmail Defense+2 123
+(50, 20, 'not')
+False
+Dagger Splintmail 61
+(50, 100, 'not')
+True
+Dagger Splintmail ['Defense+1', 'Defense+3'] 161
+(34, 25, 'not')
+False
+Dagger Splintmail ['Defense+1', 'Damage+1'] 106
+(25, 25, 'yes')
+True
+Dagger Splintmail ['Defense+1', 'Damage+2'] 131
+(20, 25, 'not')
+True
+Dagger Splintmail ['Defense+1', 'Damage+3'] 181
+(50, 50, 'yes')
+True
+Dagger Splintmail ['Defense+1', 'Defense+2'] 121
+(34, 50, 'not')
+True
+Dagger Splintmail ['Defense+3', 'Damage+1'] 166
+(25, 50, 'not')
+True
+Dagger Splintmail ['Defense+3', 'Damage+2'] 191
+(20, 50, 'not')
+True
+Dagger Splintmail ['Defense+3', 'Damage+3'] 241
+(50, 100, 'not')
+True
+Dagger Splintmail ['Defense+3', 'Defense+2'] 181
+(20, 20, 'yes')
+True
+Dagger Splintmail ['Damage+1', 'Damage+2'] 136
+(17, 20, 'not')
+True
+Dagger Splintmail ['Damage+1', 'Damage+3'] 186
+(34, 34, 'yes')
+True
+Dagger Splintmail ['Damage+1', 'Defense+2'] 126
+(15, 20, 'not')
+True
+Dagger Splintmail ['Damage+2', 'Damage+3'] 211
+(25, 34, 'not')
+True
+Dagger Splintmail ['Damage+2', 'Defense+2'] 151
+(20, 34, 'not')
+True
+Dagger Splintmail ['Damage+3', 'Defense+2'] 201
+(50, 25, 'not')
+False
+Dagger Splintmail Defense+1 81
+(50, 50, 'yes')
+True
+Dagger Splintmail Defense+3 141
+(34, 20, 'not')
+False
+Dagger Splintmail Damage+1 86
+(25, 20, 'not')
+False
+Dagger Splintmail Damage+2 111
+(20, 20, 'yes')
+True
+Dagger Splintmail Damage+3 161
+(50, 34, 'not')
+False
+Dagger Splintmail Defense+2 101
+(25, 17, 'not')
+False
+Warhammer Chainmail 56
+(25, 50, 'not')
+True
+Warhammer Chainmail ['Defense+1', 'Defense+3'] 156
+(20, 20, 'yes')
+True
+Warhammer Chainmail ['Defense+1', 'Damage+1'] 101
+(17, 20, 'not')
+True
+Warhammer Chainmail ['Defense+1', 'Damage+2'] 126
+(15, 20, 'not')
+True
+Warhammer Chainmail ['Defense+1', 'Damage+3'] 176
+(25, 34, 'not')
+True
+Warhammer Chainmail ['Defense+1', 'Defense+2'] 116
+(20, 34, 'not')
+True
+Warhammer Chainmail ['Defense+3', 'Damage+1'] 161
+(17, 34, 'not')
+True
+Warhammer Chainmail ['Defense+3', 'Damage+2'] 186
+(15, 34, 'not')
+True
+Warhammer Chainmail ['Defense+3', 'Damage+3'] 236
+(25, 100, 'not')
+True
+Warhammer Chainmail ['Defense+3', 'Defense+2'] 176
+(15, 17, 'not')
+True
+Warhammer Chainmail ['Damage+1', 'Damage+2'] 131
+(13, 17, 'not')
+True
+Warhammer Chainmail ['Damage+1', 'Damage+3'] 181
+(20, 25, 'not')
+True
+Warhammer Chainmail ['Damage+1', 'Defense+2'] 121
+(12, 17, 'not')
+True
+Warhammer Chainmail ['Damage+2', 'Damage+3'] 206
+(17, 25, 'not')
+True
+Warhammer Chainmail ['Damage+2', 'Defense+2'] 146
+(15, 25, 'not')
+True
+Warhammer Chainmail ['Damage+3', 'Defense+2'] 196
+(25, 20, 'not')
+False
+Warhammer Chainmail Defense+1 76
+(25, 34, 'not')
+True
+Warhammer Chainmail Defense+3 136
+(20, 17, 'not')
+False
+Warhammer Chainmail Damage+1 81
+(17, 17, 'yes')
+True
+Warhammer Chainmail Damage+2 106
+(15, 17, 'not')
+True
+Warhammer Chainmail Damage+3 156
+(25, 25, 'yes')
+True
+Warhammer Chainmail Defense+2 96
+(25, 34, 'not')
+True
+Warhammer Platemail 127
+(25, 100, 'not')
+True
+Warhammer Platemail ['Defense+1', 'Defense+3'] 227
+(20, 50, 'not')
+True
+Warhammer Platemail ['Defense+1', 'Damage+1'] 172
+(17, 50, 'not')
+True
+Warhammer Platemail ['Defense+1', 'Damage+2'] 197
+(15, 50, 'not')
+True
+Warhammer Platemail ['Defense+1', 'Damage+3'] 247
+(25, 100, 'not')
+True
+Warhammer Platemail ['Defense+1', 'Defense+2'] 187
+(20, 100, 'not')
+True
+Warhammer Platemail ['Defense+3', 'Damage+1'] 232
+(17, 100, 'not')
+True
+Warhammer Platemail ['Defense+3', 'Damage+2'] 257
+(15, 100, 'not')
+True
+Warhammer Platemail ['Defense+3', 'Damage+3'] 307
+(25, 100, 'not')
+True
+Warhammer Platemail ['Defense+3', 'Defense+2'] 247
+(15, 34, 'not')
+True
+Warhammer Platemail ['Damage+1', 'Damage+2'] 202
+(13, 34, 'not')
+True
+Warhammer Platemail ['Damage+1', 'Damage+3'] 252
+(20, 100, 'not')
+True
+Warhammer Platemail ['Damage+1', 'Defense+2'] 192
+(12, 34, 'not')
+True
+Warhammer Platemail ['Damage+2', 'Damage+3'] 277
+(17, 100, 'not')
+True
+Warhammer Platemail ['Damage+2', 'Defense+2'] 217
+(15, 100, 'not')
+True
+Warhammer Platemail ['Damage+3', 'Defense+2'] 267
+(25, 50, 'not')
+True
+Warhammer Platemail Defense+1 147
+(25, 100, 'not')
+True
+Warhammer Platemail Defense+3 207
+(20, 34, 'not')
+True
+Warhammer Platemail Damage+1 152
+(17, 34, 'not')
+True
+Warhammer Platemail Damage+2 177
+(15, 34, 'not')
+True
+Warhammer Platemail Damage+3 227
+(25, 100, 'not')
+True
+Warhammer Platemail Defense+2 167
+(25, 15, 'not')
+False
+Warhammer Leather 38
+(25, 34, 'not')
+True
+Warhammer Leather ['Defense+1', 'Defense+3'] 138
+(20, 17, 'not')
+False
+Warhammer Leather ['Defense+1', 'Damage+1'] 83
+(17, 17, 'yes')
+True
+Warhammer Leather ['Defense+1', 'Damage+2'] 108
+(15, 17, 'not')
+True
+Warhammer Leather ['Defense+1', 'Damage+3'] 158
+(25, 25, 'yes')
+True
+Warhammer Leather ['Defense+1', 'Defense+2'] 98
+(20, 25, 'not')
+True
+Warhammer Leather ['Defense+3', 'Damage+1'] 143
+(17, 25, 'not')
+True
+Warhammer Leather ['Defense+3', 'Damage+2'] 168
+(15, 25, 'not')
+True
+Warhammer Leather ['Defense+3', 'Damage+3'] 218
+(25, 50, 'not')
+True
+Warhammer Leather ['Defense+3', 'Defense+2'] 158
+(15, 15, 'yes')
+True
+Warhammer Leather ['Damage+1', 'Damage+2'] 113
+(13, 15, 'not')
+True
+Warhammer Leather ['Damage+1', 'Damage+3'] 163
+(20, 20, 'yes')
+True
+Warhammer Leather ['Damage+1', 'Defense+2'] 103
+(12, 15, 'not')
+True
+Warhammer Leather ['Damage+2', 'Damage+3'] 188
+(17, 20, 'not')
+True
+Warhammer Leather ['Damage+2', 'Defense+2'] 128
+(15, 20, 'not')
+True
+Warhammer Leather ['Damage+3', 'Defense+2'] 178
+(25, 17, 'not')
+False
+Warhammer Leather Defense+1 58
+(25, 25, 'yes')
+True
+Warhammer Leather Defense+3 118
+(20, 15, 'not')
+False
+Warhammer Leather Damage+1 63
+(17, 15, 'not')
+False
+Warhammer Leather Damage+2 88
+(15, 15, 'yes')
+True
+Warhammer Leather Damage+3 138
+(25, 20, 'not')
+False
+Warhammer Leather Defense+2 78
+(25, 25, 'yes')
+True
+Warhammer Bandedmail 100
+(25, 100, 'not')
+True
+Warhammer Bandedmail ['Defense+1', 'Defense+3'] 200
+(20, 34, 'not')
+True
+Warhammer Bandedmail ['Defense+1', 'Damage+1'] 145
+(17, 34, 'not')
+True
+Warhammer Bandedmail ['Defense+1', 'Damage+2'] 170
+(15, 34, 'not')
+True
+Warhammer Bandedmail ['Defense+1', 'Damage+3'] 220
+(25, 100, 'not')
+True
+Warhammer Bandedmail ['Defense+1', 'Defense+2'] 160
+(20, 100, 'not')
+True
+Warhammer Bandedmail ['Defense+3', 'Damage+1'] 205
+(17, 100, 'not')
+True
+Warhammer Bandedmail ['Defense+3', 'Damage+2'] 230
+(15, 100, 'not')
+True
+Warhammer Bandedmail ['Defense+3', 'Damage+3'] 280
+(25, 100, 'not')
+True
+Warhammer Bandedmail ['Defense+3', 'Defense+2'] 220
+(15, 25, 'not')
+True
+Warhammer Bandedmail ['Damage+1', 'Damage+2'] 175
+(13, 25, 'not')
+True
+Warhammer Bandedmail ['Damage+1', 'Damage+3'] 225
+(20, 50, 'not')
+True
+Warhammer Bandedmail ['Damage+1', 'Defense+2'] 165
+(12, 25, 'not')
+True
+Warhammer Bandedmail ['Damage+2', 'Damage+3'] 250
+(17, 50, 'not')
+True
+Warhammer Bandedmail ['Damage+2', 'Defense+2'] 190
+(15, 50, 'not')
+True
+Warhammer Bandedmail ['Damage+3', 'Defense+2'] 240
+(25, 34, 'not')
+True
+Warhammer Bandedmail Defense+1 120
+(25, 100, 'not')
+True
+Warhammer Bandedmail Defense+3 180
+(20, 25, 'not')
+True
+Warhammer Bandedmail Damage+1 125
+(17, 25, 'not')
+True
+Warhammer Bandedmail Damage+2 150
+(15, 25, 'not')
+True
+Warhammer Bandedmail Damage+3 200
+(25, 50, 'not')
+True
+Warhammer Bandedmail Defense+2 140
+(25, 20, 'not')
+False
+Warhammer Splintmail 78
+(25, 100, 'not')
+True
+Warhammer Splintmail ['Defense+1', 'Defense+3'] 178
+(20, 25, 'not')
+True
+Warhammer Splintmail ['Defense+1', 'Damage+1'] 123
+(17, 25, 'not')
+True
+Warhammer Splintmail ['Defense+1', 'Damage+2'] 148
+(15, 25, 'not')
+True
+Warhammer Splintmail ['Defense+1', 'Damage+3'] 198
+(25, 50, 'not')
+True
+Warhammer Splintmail ['Defense+1', 'Defense+2'] 138
+(20, 50, 'not')
+True
+Warhammer Splintmail ['Defense+3', 'Damage+1'] 183
+(17, 50, 'not')
+True
+Warhammer Splintmail ['Defense+3', 'Damage+2'] 208
+(15, 50, 'not')
+True
+Warhammer Splintmail ['Defense+3', 'Damage+3'] 258
+(25, 100, 'not')
+True
+Warhammer Splintmail ['Defense+3', 'Defense+2'] 198
+(15, 20, 'not')
+True
+Warhammer Splintmail ['Damage+1', 'Damage+2'] 153
+(13, 20, 'not')
+True
+Warhammer Splintmail ['Damage+1', 'Damage+3'] 203
+(20, 34, 'not')
+True
+Warhammer Splintmail ['Damage+1', 'Defense+2'] 143
+(12, 20, 'not')
+True
+Warhammer Splintmail ['Damage+2', 'Damage+3'] 228
+(17, 34, 'not')
+True
+Warhammer Splintmail ['Damage+2', 'Defense+2'] 168
+(15, 34, 'not')
+True
+Warhammer Splintmail ['Damage+3', 'Defense+2'] 218
+(25, 25, 'yes')
+True
+Warhammer Splintmail Defense+1 98
+(25, 50, 'not')
+True
+Warhammer Splintmail Defense+3 158
+(20, 20, 'yes')
+True
+Warhammer Splintmail Damage+1 103
+(17, 20, 'not')
+True
+Warhammer Splintmail Damage+2 128
+(15, 20, 'not')
+True
+Warhammer Splintmail Damage+3 178
+(25, 34, 'not')
+True
+Warhammer Splintmail Defense+2 118
+146
+['Dagger', 'Leather', [('Damage+1', [25, 1, 0]), ('Damage+3', [100, 3, 0])]]

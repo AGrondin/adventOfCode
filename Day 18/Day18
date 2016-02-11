@@ -1,0 +1,56 @@
+
+lights=[[],[]]
+
+length=100
+
+lights[0]=[[0]*length for i in range(length)]
+lights[1]=[[0]*length for i in range(length)] 
+sumSquare=[[0]*length for i in range(length)]
+
+def switch(n, k, lst):
+    global sumSquare
+    sum=0
+    if [n,k] in [[0,0],[0,length-1],[length-1,0],[length-1,length-1]]:
+        return 1
+    else:
+        for i in range(max(n-1,0),min(n+2,length)):
+            for j in range(max(k-1,0),min(k+2,length)):
+                sum=sum+lst[i][j]
+        sumSquare[n][k]=sum
+        if lst[n][k]==1 and sum>2 and sum<5:
+            return 1
+        elif lst[n][k]==0 and sum==3:
+            return 1
+        else:
+            return 0
+
+def printSquare(lst):
+    for l in lst:
+        print(l)
+    print()
+
+with open('C:\\Users\\Alexis\\Documents\\Advent of Code\\Day 18\\input') as file:
+        
+    for n,line in enumerate(file):
+        for k,char in enumerate(line.strip()):
+            if char=='#':
+                lights[1][n][k]=1
+            else:
+                lights[1][n][k]=0
+    
+    printSquare(lights[1])
+    
+    for i in range(100):
+        for n in range(length):
+            for k in range(length):
+                lights[i%2][n][k]=switch(n,k, lights[(i+1)%2])
+        
+    
+    sum=0
+    
+    for n in range(length):
+        for k in range(length):
+            sum+=lights[1][n][k]
+    
+    print(sum)
+    

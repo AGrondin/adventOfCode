@@ -1,0 +1,51 @@
+import traceback
+
+adjList=dict()
+
+def permutate(visited, distance):
+	min=1000000
+	minPath=[]
+	if len(visited)==len(adjList.keys()):
+		return((visited, distance))
+	try:
+		for k in adjList[visited[-1]].keys():
+			if k in visited:
+				continue
+			else:
+				path=permutate(list(visited)+[k], distance+adjList[visited[-1]][k])
+				print(path)
+				if len(path[0])==len(adjList.keys()) and path[1]<min:
+					min=path[1]
+					minPath=path[0]
+				
+	except KeyError:
+		pass
+	return((minPath, min))
+
+with open('C:\\Users\\Alexis\\Documents\\Advent of Code\\Day 9\\input') as input:	
+	for line in input:
+		values=line.split(' ')
+		if values[0] not in adjList:
+			adjList[values[0]]={}
+		adjList[values[0]][values[2]]=int(values[4])
+		if values[2] not in adjList:
+			adjList[values[2]]={}
+		adjList[values[2]][values[0]]=int(values[4])
+	print(adjList)
+
+		
+min=1000000000
+hamilpath=[]		
+for k in adjList.keys():
+	perm=permutate([k],0)
+	if len(perm[0])>=len(adjList.keys()) and perm[1]<min:
+		min=perm[1]
+		hamilpath=perm[0]
+		
+print([hamilpath, min])	
+
+
+
+
+
+

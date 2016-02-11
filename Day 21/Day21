@@ -1,0 +1,94 @@
+import re
+import itertools
+
+def getSpecs(line):
+    words=line.split(' ')
+    return [words[0], list(map(int, [val for val in words[1:] if val!='']))]
+
+def getStats(objects):
+    totalCost=0
+    totalDamage=0
+    totalArmor=0
+    
+    for i in [object for object in objects if object[0]!='']:
+        print(i)
+        totalCost+=i[1]
+        totalDamage+=i[2]
+        totalArmor+=i[3]
+    
+    return [totalCost, totalDamage, totalArmor]
+    
+def isWinner(playerStats, enemyStats):
+    playerAttack=max(playerStats[0]-enemyStats[1], 1)
+    enemyAttack=max(enemyStats[0]-playerStats[1], 1)
+    
+    return (100/playerAttack)<(100/enemyAttack)+1
+    
+def isWinnerEx(playerStats, enemyStats, n, k):    
+    playerAttack=max(playerStats[0]-enemyStats[1], 1)
+    print(playerAttack)
+    enemyAttack=max(enemyStats[0]-playerStats[1], 1)
+    print(enemyAttack)
+    return (n/playerAttack)<(k/enemyAttack)+1
+    
+    
+with open('C:\\Users\\Alexis\\Documents\\Advent of Code\\Day 21\\input') as file:
+    armors={}
+    weapons={}
+    rings={}
+    
+    headerPattern=re.compile('(\w+):')
+    
+    itemType='armor'
+    
+    for line in file:
+        line=line.strip()
+        header=headerPattern.match(line)
+        if header!=None:
+            print(header.group(1))
+            itemType=header.group(1)
+        else:
+            item=getSpecs(line)
+            if item[0]!='':
+                if itemType=='Armor':
+                    armors[item[0]]=item[1]
+                elif itemType=='Weapons':
+                    weapons[item[0]]=item[1]
+                elif itemType=='Rings':
+                    rings[item[0]]=item[1]
+
+min=1000000000
+minSet=[]                    
+
+enemy=[8,2]
+                    
+for weapon in list(weapons.items()):
+    for armor in list(armors.items()):
+        toolset=[[weapon[0]]+weapon[1],[armor[0]]+armor[1]]
+        specs=getStats(toolset)
+        if specs[0]<min:
+            if isWinner(specs[1:], enemy):
+                min=specs[0]
+                minSet=[weapon[0],armor[0]]
+        for ring in ([list(x) for x in itertools.combinations(rings.items(), 2)]):
+            toolset=[[weapon[0]]+weapon[1],[armor[0]]+armor[1]]+[[list(x)[0]]+list(x)[1] for x in ring]
+            specs=getStats(toolset)
+            if specs[0]<min:
+                if isWinner(specs[1:], enemy):
+                    min=specs[0]
+                    minSet=[weapon[0],armor[0], ring]
+        for ring in (list(rings.items())):
+            toolset=[[weapon[0]]+weapon[1],[armor[0]]+armor[1], [ring[0]]+ring[1]]
+            specs=getStats(toolset)
+            if specs[0]<min:
+                if isWinner(specs[1:], enemy):
+                    min=specs[0]
+                    minSet=[weapon[0],armor[0],ring[0]]
+
+print(min)
+print(minSet)
+
+print(isWinnerEx([5,5],[7,2],12,8))
+                
+        
+    

@@ -1,0 +1,52 @@
+import re
+
+def inc(letters):
+	i=1
+	while True:
+		if letters[-i]!='z':
+			letters[-i]=chr(97+(ord(letters[-i])-96)%26)
+			return letters
+		else:
+			letters[-i]='a'
+			i+=1
+			i=i%len(letters)
+
+twoPairs=re.compile(r'(\w)\1')
+
+
+		
+			
+def check(letters):
+	inc=False
+	buffer=''
+	if  len(twoPairs.findall(letters))<2:
+		return False
+	for c in letters:
+		if c in ['i','o','l']:
+			return False
+		if buffer=='':
+			buffer=c
+		if len(buffer)==1:
+			if(ord(c)==ord(buffer)+1):
+				buffer=buffer+str(c)
+			else:
+				buffer=c
+		elif len(buffer)==2:
+			if(ord(c)==ord(buffer[-1])+1):
+				inc=True
+				break
+			else:
+				buffer=c
+	if inc:
+		return True
+	return False
+	
+notGood=False	
+password='vzbxxyzz'
+newpass=list(password)
+newpass=inc(newpass)
+while not check(''.join(newpass)):
+	newpass=inc(newpass)
+print(''.join(newpass))
+	
+	

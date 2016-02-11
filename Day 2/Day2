@@ -1,0 +1,22 @@
+import math
+
+sumInput=0
+
+def rectangle_area(w, l, h):
+	areas=[w*l, l*h, h*w]
+	total=2*(sum(areas))+min(areas)
+	return total
+
+def min_perimeter(w, l, h):
+	bow=w*l*h
+	lst=[l, w, h]
+	lst.sort()
+	peri=2*lst[0]+2*lst[1]
+	return bow+peri
+
+with open('C:\Users\Alexis\Documents\Advent of Code\Day 2\input') as input:
+	for line in input:
+		boxData=map(int, line.split('x',3))
+		sumInput+=min_perimeter(boxData[0], boxData[1], boxData[2])
+
+print(sumInput)

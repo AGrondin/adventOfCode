@@ -1,0 +1,22 @@
+
+sum=0
+
+with open('C:\Users\Alexis\Documents\Advent of Code\Day 5\input') as input:
+	for line in input:
+		pairs=False
+		pairList=[]
+		rep=False
+		buffer=''
+		for index,char in enumerate(line):
+			if index>0 and not pairs:
+				if line[index-1:index+1] in pairList:
+					pairs=True
+				pairList.append(buffer)
+				buffer=line[index-1: index+1]
+			if index>1 and not rep:
+				if char==line[index-2]:
+					rep=True	
+		if pairs and rep:
+			sum+=1
+
+print(sum)			

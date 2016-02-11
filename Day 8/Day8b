@@ -1,0 +1,11 @@
+
+
+with open('C:\Users\Alexis\Documents\Advent of Code\Day 8\input') as input:	
+	total=0
+	for line in input:
+		line=line.rstrip('\n')
+		line=line[1:-1]
+		sum=4+line.count('\\')+line.count('"')
+		total+=sum
+	print(total)	
+				

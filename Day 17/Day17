@@ -1,0 +1,24 @@
+
+
+def combine(num, lst):
+    cmb=[]
+    if len(lst)>0:
+        head=lst[0]
+        if head==num:
+            cmb.append([head])
+        if head<num:
+            cmb+=[[head]+lst for lst in combine(num-head, lst[1:])]
+        cmb+=combine(num, lst[1:])
+    return cmb
+
+
+with open('C:\\Users\\Alexis\\Documents\\Advent of Code\\Day 17\\input') as file:
+
+    containers=[]
+    for line in file:
+        containers.append(int(line))
+    
+    longlst=combine(150,containers)
+    
+    print(len([lst for lst in longlst if len(lst)==min(map(len, longlst))]))
+    

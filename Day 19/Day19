@@ -1,0 +1,35 @@
+import re
+
+with open('C:\\Users\\Alexis\\Documents\\Advent of Code\\Day 19\\input') as file:
+    
+    rulepattern=re.compile("(.*)\s=>\s(.*)")
+    
+    rules={}
+
+    
+    for line in file:
+        line=line.strip()
+        if re.match(rulepattern, line):
+            rule=re.search(rulepattern, line)
+            try:
+                rules[rule.group(1)].append(rule.group(2))
+            except KeyError:
+                rules[rule.group(1)]=[rule.group(2)]
+        else:
+            initial=line
+    
+    print(rules)    
+            
+    nontermPattern=re.compile("([A-Z][a-z]?)")
+    
+    productions=set()
+    
+    for m in re.finditer(nontermPattern, initial):
+        try:
+            for rule in rules[m.group()]:
+                productions.add(initial[:m.start()]+rule+initial[m.end():])
+        except KeyError:
+            pass
+    
+    print(len(productions))
+            

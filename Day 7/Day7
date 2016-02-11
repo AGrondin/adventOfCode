@@ -1,0 +1,48 @@
+circuit=dict()
+
+def parse(line):
+	value=line.split('->')[1].strip()
+	words=line.split('->')[0].split()		
+	return (value, words)
+
+def evaluate(value):
+	global circuit
+	try:
+		val=int(value)
+		return val
+	except ValueError:
+		words=circuit[value]
+	try:
+		val=int(words)
+		return val
+	except (ValueError, TypeError):
+		pass
+	if len(words)==1:
+		circuit[value]=evaluate(words[0])
+		return circuit[value]
+	elif len(words)==2:
+		circuit[value]=~evaluate(words[1])
+		return circuit[value]
+	elif len(words)==3:
+		if words[1]=='AND':
+			circuit[value]=evaluate(words[0])&evaluate(words[2])
+			return circuit[value]
+		elif words[1]=='OR':
+			circuit[value]=evaluate(words[0])|evaluate(words[2])
+			return circuit[value]
+		elif words[1]=='RSHIFT':
+			circuit[value]=evaluate(words[0])>>int(words[2])
+			return circuit[value]
+		elif words[1]=='LSHIFT':
+			circuit[value]=evaluate(words[0])<<int(words[2])
+			return circuit[value]
+	
+	
+with open('C:\Users\Alexis\Documents\Advent of Code\Day 7\input') as input:	
+	for line in input:
+		node=parse(line)
+		circuit[node[0]]=node[1]
+	print(circuit['a'])
+	print(evaluate('a'))
+		
+	

@@ -1,0 +1,34 @@
+
+
+lights=[[False]*1000 for n in range(1000)]
+
+def parse(words):
+	return [map(int, (words[0].split(',',2))),map(int,(words[2].split(',',2)))]
+		
+def set(rect, bool):
+	global lights
+	for c in range(rect[0][0], rect[1][0]+1):
+		for i in range(rect[0][1], rect[1][1]+1):
+			lights[c][i]=bool
+	
+
+def toggle(rect):
+	global lights
+	for c in range(rect[0][0], rect[1][0]+1):
+		for i in range(rect[0][1], rect[1][1]+1):
+			lights[c][i]=not lights[c][i]
+			
+with open('C:\Users\Alexis\Documents\Advent of Code\Day 6\input') as input:
+	for line in input:
+		words=line.split(' ')
+		if len(words)==4:
+			toggle(parse(words[1:]))
+		elif len(words)==5:
+			set(parse(words[2:]), words[1]=='on')
+	sum=0
+	for c in range(1000):
+		for d in range(1000):
+			if lights[c][d]==True:
+				sum+=1
+	print(sum)			
+	

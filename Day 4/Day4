@@ -1,0 +1,30 @@
+import hashlib
+
+x="0000012232121frf"
+
+print(x[:5])
+
+
+print(x[:5]==str(0).zfill(5))
+
+
+def checkLeading(numZeros, hex):
+	if(hex[:numZeros]==str(0).zfill(numZeros)):
+		return True
+	else:
+		return False
+
+num=1
+
+hexresult=hashlib.md5("bgvydsv")		
+
+hexresult.update(str(num))
+hex=hexresult.hexdigest()
+		
+while not checkLeading(6, hex):
+	num+=1
+	hexresult=hashlib.md5("bgvyzdsv")
+	hexresult.update(str(num))
+	hex=hexresult.hexdigest()
+	
+print(num)

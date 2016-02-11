@@ -1,0 +1,44 @@
+import re
+import json
+
+
+decoder=json.JSONDecoder()
+
+def sumButRedL(listo):
+	sum=0
+	for v in listo:
+		try:
+			val=int(v)
+			sum+=val
+		except (ValueError, TypeError):
+			pass
+		if isinstance(v, dict):
+			sum+=sumButRedD(v)
+		if isinstance(v, list):
+			sum+=sumButRedL(v)
+	return sum
+
+def sumButRedD(dicto):
+	sum=0
+	for k,v in dicto.items():
+		if str(v)=='red':
+			return 0
+		try:
+			val=int(v)
+			sum+=val
+		except (ValueError, TypeError):
+			pass
+		if isinstance(v, dict):
+			sum+=sumButRedD(v)
+		if isinstance(v, list):
+			sum+=sumButRedL(v)
+	return sum
+
+with open('C:\\Users\\Alexis\\Documents\\Advent of Code\\Day 12\\input') as input:	
+
+	sum=0
+	for line in input:
+		jsondict=decoder.decode(line)
+		sum+=sumButRedD(jsondict)
+		
+	print(sum)

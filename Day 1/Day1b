@@ -1,0 +1,15 @@
+
+
+
+with open('C:\\Users\\Alexis\\Documents\\Advent of Code\\Day 1\\input') as input:	
+	pos=0
+	floor=0
+	for line in input:
+		for char in line:
+			pos+=1
+			if char=='(':
+				floor+=1
+			elif char==')':
+				floor-=1
+			if floor==-1:
+				print(pos)

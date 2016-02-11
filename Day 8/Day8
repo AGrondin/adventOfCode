@@ -1,0 +1,30 @@
+
+
+with open('C:\Users\Alexis\Documents\Advent of Code\Day 8\input') as input:	
+	total=0
+	for line in input:
+		line=line.rstrip('\n')
+		line=line[1:-1]
+		print(line)
+		sum=0
+		buffer=''
+		for c in line:
+			if buffer=='': 
+				if c!='\\':
+					sum+=1
+				elif c=='\\':
+					buffer='\\'
+			elif buffer=='\\':
+				if c=='"' or c=='\\':
+					buffer=''
+					sum+=1
+				elif c=='x':
+					buffer='x'
+			elif buffer=='x':
+				buffer='x1'
+			elif buffer=='x1':
+				buffer=''
+				sum+=1
+		total+=sum
+	print(6202-total)	
+				

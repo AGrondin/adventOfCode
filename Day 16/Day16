@@ -1,0 +1,39 @@
+import re
+
+with open('C:\\Users\\Alexis\\Documents\\Advent of Code\\Day 16\\input') as file:
+    
+    auntPattern=re.compile('([a-z]+): ([0-9]+)[,]*')
+    
+    sueList=[{} for i in range(500)]
+    
+    for n,line in enumerate(file):
+        m=auntPattern.findall(line)
+        for i in m:
+            sueList[n][i[0]]=int(i[1])
+	
+    target={'children': 3, 'cats': 7, 'samoyeds': 2,'pomeranians': 3,'akitas': 0,'vizslas': 0,'goldfish': 5,'trees': 3,'cars': 2,'perfumes': 1}
+    
+    winner=0
+    
+    for n,entry in enumerate(sueList):
+        match=True
+        for item in target.items():
+            try:
+                if item[0]=='trees' or item[0]=='cats':
+                    if entry[item[0]]<=item[1]:
+                        match=False
+                        break
+                elif item[0]=='pomeranians' or item[0]=='goldfish':
+                    if entry[item[0]]>=item[1]:
+                        match=False
+                        break
+                elif entry[item[0]]!=item[1]:
+                    match=False
+                    break
+            except KeyError:
+                pass  
+        if match:
+            winner=n
+            break
+    
+    print(winner+1)
